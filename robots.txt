@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://francesco-migliaro.github.io/sitemap.xml
+Sitemap: https://pur2all.github.io/sitemap.xml
