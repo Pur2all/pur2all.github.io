@@ -6,7 +6,7 @@ subtitle: <a href="mailto:francesco.migliaro@phd.unict.it" title="email"><i clas
 
 profile:
   align: right
-  image: 1.jpg
+  image: propic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -22,7 +22,7 @@ My research interests are (for now) mostly related to foundational aspects of cr
 public key cryptography with advanced functionalities. 
 You can find a list of my works on my [publications page](/publications/).
 
-I obtained both my master's and bachelor's degrees in Computer Science from [University of Salerno](www.unisa.it). 
+I obtained both my master's and bachelor's degree in Computer Science from [University of Salerno](www.unisa.it). 
 My studies were focused mostly on Cryptography, Information Theory and theoretical foundations of Computer Science, like computability theory and complexity theory.
 
 See my [CV](/cv/) for more details.
