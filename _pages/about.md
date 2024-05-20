@@ -6,7 +6,7 @@ subtitle: <a href="mailto:francesco.migliaro@phd.unict.it" title="email"><i clas
 
 profile:
   align: right
-  image: propic.jpg
+  image: propic1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
