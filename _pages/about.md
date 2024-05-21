@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 Hi, I'm Francesco! I'm a Ph.D. student of the [Crypto group](https://crypto.dmi.unict.it/) at [University of Catania](www.unict.it). 
 I am supervised by [Dario Catalano](http://www.dmi.unict.it/catalano/).
 
-My research interests are (for now) mostly related to foundational aspects of cryptography and
+My research interests are (for now) mostly related to theoretical aspects of cryptography and
 public key cryptography with advanced functionalities. 
 You can find a list of my works on my [publications page](/publications/).
 
