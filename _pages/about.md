@@ -23,6 +23,6 @@ public key cryptography with advanced functionalities.
 You can find a list of my works on my [publications page](/publications/).
 
 I obtained both my master's and bachelor's degree in Computer Science from [University of Salerno](www.unisa.it). 
-My studies were focused mostly on Cryptography, Information Theory and theoretical foundations of Computer Science, like computability theory and complexity theory.
+My studies were focused mostly on Cryptography, Algorithm Design, Information Theory and theoretical foundations of Computer Science, like Computability Theory and Complexity Theory.
 
 See my [CV](/cv/) for more details.
