@@ -4,7 +4,11 @@
 
 # Parse cmd arguments
 
+<<<<<<< HEAD
 SRC_BRANCH="master"
+=======
+SRC_BRANCH="main"
+>>>>>>> v0.13.4
 DEPLOY_BRANCH="gh-pages"
 
 USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
@@ -93,7 +97,11 @@ git checkout -b $DEPLOY_BRANCH
 export JEKYLL_ENV=production
 
 # Build site
+<<<<<<< HEAD
 bundle exec jekyll build --lsi
+=======
+bundle exec jekyll build
+>>>>>>> v0.13.4
 
 # Purge unused css
 purgecss -c purgecss.config.js

@@ -27,6 +27,10 @@ table {
   td,
   th {
     font-size: 1rem;
+<<<<<<< HEAD
+=======
+    padding: 1px 1rem 1px 0;
+>>>>>>> v0.13.4
   }
 
   th {
@@ -71,7 +75,14 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
+<<<<<<< HEAD
     p {
+=======
+    em,
+    li,
+    p,
+    strong {
+>>>>>>> v0.13.4
       color: var(--global-tip-block-text);
     }
 
@@ -89,7 +100,14 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
+<<<<<<< HEAD
     p {
+=======
+    em,
+    li,
+    p,
+    strong {
+>>>>>>> v0.13.4
       color: var(--global-warning-block-text);
     }
 
@@ -107,7 +125,14 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
+<<<<<<< HEAD
     p {
+=======
+    em,
+    li,
+    p,
+    strong {
+>>>>>>> v0.13.4
       color: var(--global-danger-block-text);
     }
 
@@ -301,6 +326,27 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
+<<<<<<< HEAD
+=======
+      img {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+        // margin: 0.5rem;
+      }
+
+      svg {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 1.7rem;
+          height: 1.7rem;
+        }
+      }
+
+>>>>>>> v0.13.4
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -355,7 +401,12 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+<<<<<<< HEAD
 #light-toggle {
+=======
+#light-toggle,
+#search-toggle {
+>>>>>>> v0.13.4
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -375,12 +426,37 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+<<<<<<< HEAD
+=======
+      img {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-bottom: 1rem;
+      }
+
+      svg {
+        width: 3.5rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+      }
+
+>>>>>>> v0.13.4
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+<<<<<<< HEAD
+=======
+        text-decoration: none;
+
+>>>>>>> v0.13.4
         i::before {
           color: var(--global-theme-color);
         }
@@ -483,6 +559,14 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
+<<<<<<< HEAD
+=======
+.date-column {
+  width: 75px;
+  transform: translateX(-15px) translateY(-5px);
+}
+
+>>>>>>> v0.13.4
 // Repositories
 
 @media (min-width: 768px) {
@@ -573,6 +657,10 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+<<<<<<< HEAD
+=======
+      padding: 0.75rem 1.15rem;
+>>>>>>> v0.13.4
 
       &:hover {
         color: $black-color;
@@ -618,6 +706,13 @@ footer.sticky-bottom {
     }
   }
 
+<<<<<<< HEAD
+=======
+  .col {
+    padding-bottom: 1rem;
+  }
+
+>>>>>>> v0.13.4
   .grid-sizer,
   .grid-item {
     width: 250px;
@@ -1109,3 +1204,181 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
+<<<<<<< HEAD
+=======
+
+// Ninja Keys
+// for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
+ninja-keys {
+  --ninja-accent-color: var(--global-theme-color);
+  --ninja-icon-size: 0px;
+  --ninja-modal-background: var(--global-bg-color);
+  --ninja-z-index: 1031;
+}
+
+ninja-keys::part(ninja-input) {
+  color: var(--ninja-selected-text-color);
+}
+
+ninja-keys::part(ninja-input-wrapper) {
+  background: var(--global-bg-color);
+}
+
+// newsletter
+.newsletter-form-container {
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.newsletter-form-input,
+.bibsearch-form-input {
+  color: var(--global-newsletter-text-color);
+  background: var(--global-newsletter-bg-color);
+  border: 1px solid var(--global-newsletter-text-color);
+  outline: none;
+  margin: 0px 10px 0px 0px;
+  width: 100%;
+  max-width: 350px;
+  min-width: 100px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.newsletter-form-input:focus {
+  border-color: var(--global-theme-color) !important;
+}
+
+.newsletter-form-button {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+  display: flex;
+  width: min-content;
+  max-width: 200px;
+  white-space: nowrap;
+  height: 38px;
+  align-items: center;
+  flex-direction: row;
+  padding: 9px 17px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
+  border-radius: 6px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter-loading-button {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+  display: none;
+  width: min-content;
+  max-width: 300px;
+  white-space: nowrap;
+  height: 38px;
+  align-items: center;
+  flex-direction: row;
+  padding: 9px 17px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
+  border-radius: 6px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.newsletter-success {
+  color: var(--global-text-color);
+  display: none;
+  align-items: center;
+  width: 100%;
+}
+
+.newsletter-error {
+  color: var(--global-theme-color);
+  display: none;
+  align-items: center;
+  width: 100%;
+}
+
+.newsletter-back-button {
+  color: var(--global-theme-color);
+  margin: 10px auto;
+  text-align: center;
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .newsletter-form-input,
+  .newsletter-form-button,
+  .newsletter-loading-button,
+  .newsletter-success,
+  .newsletter-error {
+    font-size: 16px !important;
+  }
+  .newsletter-form-container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+// popover is used for annotation in bib.liquid
+.popover {
+  background-color: var(--global-bg-color);
+  border-color: var(--global-divider-color);
+
+  .popover-header {
+    color: var(--global-text-color); // Header text color
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .popover-body {
+    color: var(--global-text-color); // Body text color
+  }
+}
+
+.bs-popover-top {
+  // arrow fill color
+  .arrow::after {
+    border-top-color: var(--global-bg-color);
+  }
+
+  // arrow border color
+  .arrow:before {
+    border-top-color: var(--global-divider-color);
+  }
+}
+
+.bs-popover-bottom {
+  // arrow fill color
+  .arrow::after {
+    border-bottom-color: var(--global-bg-color);
+  }
+
+  // arrow border color
+  .arrow:before {
+    border-bottom-color: var(--global-divider-color);
+  }
+}
+
+// highlight-search-term
+::highlight(search) {
+  background-color: var(--global-theme-color);
+  color: var(--global-text-color);
+}
+>>>>>>> v0.13.4
