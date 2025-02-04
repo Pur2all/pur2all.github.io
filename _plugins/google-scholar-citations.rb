@@ -15,8 +15,6 @@ module Jekyll
       splitted = params.split(" ").map(&:strip)
       @scholar_id = splitted[0]
       @article_id = splitted[1]
-<<<<<<< HEAD
-=======
 
       if @scholar_id.nil? || @scholar_id.empty?
         puts "Invalid scholar_id provided"
@@ -25,7 +23,6 @@ module Jekyll
       if @article_id.nil? || @article_id.empty?
         puts "Invalid article_id provided"
       end
->>>>>>> v0.13.4
     end
 
     def render(context)
@@ -76,16 +73,9 @@ module Jekyll
         citation_count = "N/A"
 
         # Print the error message including the exception class and message
-<<<<<<< HEAD
-        puts "Error fetching citation count for #{article_id}: #{e.class} - #{e.message}"
-      end
-
-
-=======
         puts "Error fetching citation count for #{article_id} in #{article_url}: #{e.class} - #{e.message}"
       end
 
->>>>>>> v0.13.4
       GoogleScholarCitationsTag::Citations[article_id] = citation_count
       return "#{citation_count}"
     end

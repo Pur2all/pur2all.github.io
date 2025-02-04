@@ -7,12 +7,9 @@ module Jekyll
 		    input = input.gsub(/^.*\b#{keyword}\b *= *\{.*$\n/, '')
 	    end
 
-<<<<<<< HEAD
-=======
       # Clean superscripts in author lists
       input = input.gsub(/^.*\bauthor\b *= *\{.*$\n/) { |line| line.gsub(/[*†‡§¶‖&^]/, '') }
 
->>>>>>> v0.13.4
       return input
     end
   end

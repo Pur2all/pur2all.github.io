@@ -27,10 +27,7 @@ table {
   td,
   th {
     font-size: 1rem;
-<<<<<<< HEAD
-=======
     padding: 1px 1rem 1px 0;
->>>>>>> v0.13.4
   }
 
   th {
@@ -75,14 +72,10 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-<<<<<<< HEAD
-    p {
-=======
     em,
     li,
     p,
     strong {
->>>>>>> v0.13.4
       color: var(--global-tip-block-text);
     }
 
@@ -100,14 +93,10 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-<<<<<<< HEAD
-    p {
-=======
     em,
     li,
     p,
     strong {
->>>>>>> v0.13.4
       color: var(--global-warning-block-text);
     }
 
@@ -125,14 +114,10 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-<<<<<<< HEAD
-    p {
-=======
     em,
     li,
     p,
     strong {
->>>>>>> v0.13.4
       color: var(--global-danger-block-text);
     }
 
@@ -326,8 +311,6 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
-<<<<<<< HEAD
-=======
       img {
         width: 1.7rem;
         height: 1.7rem;
@@ -346,7 +329,6 @@ ul.task-list input[type="checkbox"] {
         }
       }
 
->>>>>>> v0.13.4
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -401,12 +383,8 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-<<<<<<< HEAD
-#light-toggle {
-=======
 #light-toggle,
 #search-toggle {
->>>>>>> v0.13.4
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -426,8 +404,6 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
-<<<<<<< HEAD
-=======
       img {
         width: 3.2rem;
         height: 3.2rem;
@@ -445,18 +421,14 @@ ul.task-list input[type="checkbox"] {
         }
       }
 
->>>>>>> v0.13.4
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
-<<<<<<< HEAD
-=======
         text-decoration: none;
 
->>>>>>> v0.13.4
         i::before {
           color: var(--global-theme-color);
         }
@@ -559,14 +531,11 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
-<<<<<<< HEAD
-=======
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
 }
 
->>>>>>> v0.13.4
 // Repositories
 
 @media (min-width: 768px) {
@@ -657,10 +626,7 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
-<<<<<<< HEAD
-=======
       padding: 0.75rem 1.15rem;
->>>>>>> v0.13.4
 
       &:hover {
         color: $black-color;
@@ -706,13 +672,10 @@ footer.sticky-bottom {
     }
   }
 
-<<<<<<< HEAD
-=======
   .col {
     padding-bottom: 1rem;
   }
 
->>>>>>> v0.13.4
   .grid-sizer,
   .grid-item {
     width: 250px;
@@ -1204,8 +1167,6 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
-<<<<<<< HEAD
-=======
 
 // Ninja Keys
 // for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
@@ -1381,4 +1342,3 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
->>>>>>> v0.13.4

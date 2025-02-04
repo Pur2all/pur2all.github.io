@@ -2,23 +2,15 @@
  * Themes
  ******************************************************************************/
 
-<<<<<<< HEAD
-=======
 @use "sass:color";
 
->>>>>>> v0.13.4
 :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-<<<<<<< HEAD
   --global-theme-color: #{$blue-color};
-  --global-hover-color: #{$blue-color-dark};
-=======
-  --global-theme-color: #{$purple-color};
   --global-hover-color: #{$purple-color};
->>>>>>> v0.13.4
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -27,8 +19,6 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
-<<<<<<< HEAD
-=======
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -38,7 +28,6 @@
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
->>>>>>> v0.13.4
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -67,14 +56,6 @@
     display: none;
   }
 
-<<<<<<< HEAD
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
-  }
-=======
   .only-light {
     display: block;
   }
@@ -92,7 +73,6 @@
     width: $back-to-top-width;
     z-index: $back-to-top-z-index;
   }
->>>>>>> v0.13.4
 }
 
 html[data-theme="dark"] {
@@ -109,8 +89,6 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
-<<<<<<< HEAD
-=======
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
@@ -120,7 +98,6 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
->>>>>>> v0.13.4
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -135,18 +112,11 @@ html[data-theme="dark"] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-<<<<<<< HEAD
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-=======
   .only-light {
     display: none;
   }
 
   .only-dark {
->>>>>>> v0.13.4
     display: block;
   }
 }
@@ -165,14 +135,11 @@ html[data-theme-setting="dark"] {
   #light-toggle-light {
     display: none;
   }
-<<<<<<< HEAD
-=======
 
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
   }
->>>>>>> v0.13.4
 }
 
 html[data-theme-setting="light"] {

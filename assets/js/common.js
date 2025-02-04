@@ -37,20 +37,12 @@ $(document).ready(function () {
   cssLink.rel = "stylesheet";
   cssLink.type = "text/css";
 
-<<<<<<< HEAD
-  let theme = determineComputedTheme();
-=======
   let jupyterTheme = determineComputedTheme();
->>>>>>> v0.13.4
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
     $(this).contents().find("head").append(cssLink);
 
-<<<<<<< HEAD
-    if (theme == "dark") {
-=======
     if (jupyterTheme == "dark") {
->>>>>>> v0.13.4
       $(this).bind("load", function () {
         $(this).contents().find("body").attr({
           "data-jp-theme-light": "false",
@@ -59,12 +51,9 @@ $(document).ready(function () {
       });
     }
   });
-<<<<<<< HEAD
-=======
 
   // trigger popovers
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
->>>>>>> v0.13.4
 });

@@ -1,11 +1,8 @@
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
-<<<<<<< HEAD
-=======
 require 'nokogiri'
 require 'time'
->>>>>>> v0.13.4
 
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
@@ -15,38 +12,15 @@ module ExternalPosts
     def generate(site)
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
-<<<<<<< HEAD
-          p "Fetching external posts from #{src['name']}:"
-          xml = HTTParty.get(src['rss_url']).body
-          return if xml.nil?
-          feed = Feedjira.parse(xml)
-          feed.entries.each do |e|
-            p "...fetching #{e.url}"
-            slug = e.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-            path = site.in_source_dir("_posts/#{slug}.md")
-            doc = Jekyll::Document.new(
-              path, { :site => site, :collection => site.collections['posts'] }
-            )
-            doc.data['external_source'] = src['name'];
-            doc.data['feed_content'] = e.content;
-            doc.data['title'] = "#{e.title}";
-            doc.data['description'] = e.summary;
-            doc.data['date'] = e.published;
-            doc.data['redirect'] = e.url;
-            site.collections['posts'].docs << doc
-=======
           puts "Fetching external posts from #{src['name']}:"
           if src['rss_url']
             fetch_from_rss(site, src)
           elsif src['posts']
             fetch_from_urls(site, src)
->>>>>>> v0.13.4
           end
         end
       end
     end
-<<<<<<< HEAD
-=======
 
     def fetch_from_rss(site, src)
       xml = HTTParty.get(src['rss_url']).body
@@ -127,6 +101,5 @@ module ExternalPosts
       }
     end
 
->>>>>>> v0.13.4
   end
 end
