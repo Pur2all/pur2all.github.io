@@ -22,19 +22,16 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Università degli Studi di Catania",
-      "position": "Ph.D. student in Cryptography",
-      "location": "Catania, Italy",
-      "url": "https://www.unict.it",
-      "startDate": "2022",
-      "endDate": "",
-      "summary": "",
-      "highlights": [""]
-    }
-  ],
   "education": [
+    {
+      "institution": "Università degli Studi di Catania",
+      "location": "Catania, Italy",
+      "url": "https://www.unict.it/",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2022",
+      "endDate": "Ongoing"
+    },
     {
       "institution": "Università di Salerno",
       "location": "Fisciano, Italy",
@@ -58,6 +55,10 @@
   ],
   "publications": [
     {
+      "name": "Generic Anamorphic Encryption, Revisited: New Limitations and Constructions",
+      "publisher": "Eurocrypt 2025"
+    },
+    {
       "name": "Limits of Black-Box Anamorphic Encryption",
       "publisher": "Crypto 2024",
       "url": "",
@@ -73,6 +74,11 @@
   "languages": [
     {
       "language": "Italian",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Neapolitan",
       "fluency": "Native speaker",
       "icon": ""
     },
