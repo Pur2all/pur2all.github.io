@@ -22,6 +22,15 @@
       }
     ]
   },
+  "work": [
+    {
+      "name": "Institut de Recherche en Informatique Fondamentale",
+      "position": "Visiting Ph.D. student",
+      "url": "https://www.irif.fr/index",
+      "startDate": "2024-11",
+      "endDate": "2025-04"
+    }
+  ],
   "education": [
     {
       "institution": "Università degli Studi di Catania",
@@ -67,6 +76,12 @@
     {
       "name": "Anamorphic Encryption: New Constructions and Homomorphic Realizations",
       "publisher": "Eurocrypt 2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Anamorphic Resistant Encryption: the Good, the Bad and the Ugly",
+      "publisher": "Crypto 2025",
       "url": "",
       "summary": ""
     }
