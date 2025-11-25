@@ -8,8 +8,12 @@ nav_order: 3
 ---
 
 <!-- _pages/academic_service.md -->
+## Program Committee
+None yet :(
 
-<b> External Reviewer </b> <br>
-2026: EUROCRYPT, PKC <br>
-2025: EUROCRYPT, CRYPTO, TCC, ASIACRYPT <br>
-2024: SCN
+
+## External Reviewer
+
+**2026**: EUROCRYPT, PKC  
+**2025**: EUROCRYPT, CRYPTO, TCC, ASIACRYPT  
+**2024**: SCN

@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+If you need to cite one of my papers, I kindly ask you to cite the published version if possible.  
+You should know that in Italy, citations to preprints are not considered in the counting for calls for professors and similar positions.
+
 <!-- _pages/publications.md -->
 <div class="publications">
   <header class="post-header">
