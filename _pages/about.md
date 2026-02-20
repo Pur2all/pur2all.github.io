@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="mailto:francesco.migliaro@phd.unict.it" title="email"><i class="fas fa-envelope"></i></a> francesco.migliaro@phd.unict.it
+subtitle: <a href="mailto:migliaro@irif.fr" title="email"><i class="fas fa-envelope"></i></a> migliaro@irif.fr
 
 profile:
   align: right
@@ -16,10 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Francesco! I'm a Ph.D. student of the [Crypto group](https://crypto.dmi.unict.it/) at [University of Catania](https://www.unict.it). 
-I am supervised by [Dario Catalano](http://www.dmi.unict.it/catalano/).  
-From November 2024 to April 2025 I've been a visiting student at [IRIF](https://www.irif.fr/) under the supervision 
-of [Geoffroy Couteau](https://geoffroycouteau.github.io/).
+Hi, I'm Francesco! I'm a [CNRS](https://www.cnrs.fr/en) Postdoctoral Researcher at [IRIF](https://www.irif.fr/), hosted by [Geoffroy Couteau](https://geoffroycouteau.github.io/).
+I received a Ph.D. in Computer Science by the [University of Catania](https://www.unict.it), where I was part of the [Crypto group](https://crypto.dmi.unict.it/) and I was supervised by [Dario Catalano](http://www.dmi.unict.it/catalano/).  
+<!--> From November 2024 to April 2025 I've been a visiting student at [IRIF](https://www.irif.fr/) under the supervision 
+of [Geoffroy Couteau](https://geoffroycouteau.github.io/). <!-->
 
 My research interests are mostly related to theoretical aspects of cryptography and
 public key cryptography with advanced functionalities. 

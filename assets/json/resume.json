@@ -3,7 +3,7 @@
     "name": "Francesco Migliaro",
     "label": "",
     "image": "",
-    "email": "francesco.migliaro@phd.unict.it",
+    "email": "migliaro@irif.fr",
     "phone": "",
     "url": "https://pur2all.github.io/",
     "summary": "",
@@ -23,6 +23,13 @@
     ]
   },
   "work": [
+    {
+      "name": "CNRS",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.cnrs.fr/en",
+      "startDate": "2025-12",
+      "endDate": "ongoing"
+    },
     {
       "name": "Institut de Recherche en Informatique Fondamentale",
       "position": "Visiting Ph.D. student",
