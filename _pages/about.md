@@ -17,7 +17,10 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hi, I'm Francesco! I'm a [CNRS](https://www.cnrs.fr/en) Postdoctoral Researcher at [IRIF](https://www.irif.fr/), hosted by [Geoffroy Couteau](https://geoffroycouteau.github.io/).
-I received a Ph.D. in Computer Science by the [University of Catania](https://www.unict.it), where I was part of the [Crypto group](https://crypto.dmi.unict.it/) and I was supervised by [Dario Catalano](http://www.dmi.unict.it/catalano/).  
+
+I received a Ph.D. in Computer Science by the [University of Catania](https://www.unict.it), where I was part of the [Crypto group](https://crypto.dmi.unict.it/) and I was supervised by [Dario Catalano](http://www.dmi.unict.it/catalano/). 
+
+You can find my thesis [here](/assets/pdf/phd_thesis_Francesco_Migliaro.pdf).
 <!-- From November 2024 to April 2025 I've been a visiting student at [IRIF](https://www.irif.fr/) under the supervision 
 of [Geoffroy Couteau](https://geoffroycouteau.github.io/). -->
 

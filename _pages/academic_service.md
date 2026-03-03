@@ -14,6 +14,6 @@ None yet :(
 
 ## External Reviewer
 
-**2026**: EUROCRYPT, PKC  
-**2025**: EUROCRYPT, CRYPTO, TCC, ASIACRYPT  
+**2026**: EUROCRYPT; CRYPTO; PKC; Design, Codes & Cryptography
+**2025**: EUROCRYPT; CRYPTO; TCC; ASIACRYPT  
 **2024**: SCN
