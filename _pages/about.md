@@ -23,8 +23,7 @@ You can find my thesis [here](/assets/pdf/phd_thesis_Francesco_Migliaro.pdf).
 <!-- From November 2024 to April 2025 I've been a visiting student at [IRIF](https://www.irif.fr/) under the supervision 
 of [Geoffroy Couteau](https://geoffroycouteau.github.io/). -->
 
-My research interests are mostly related to theoretical aspects of cryptography and
-public key cryptography with advanced functionalities.   
+My main research interests are mostly related to countersurveillance, theoretical aspects of cryptography and public key cryptography with advanced functionalities.   
 You can find a list of my works on my [publications page](/publications/).
 
 I obtained both my master's and bachelor's degree in Computer Science from [University of Salerno](https://www.unisa.it). 
